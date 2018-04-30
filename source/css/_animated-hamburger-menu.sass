@@ -1,26 +1,35 @@
+/* Hamburger Menu Settings */
+$hamburger-menu--rounded: true
+$hamburger-menu--color: #d3531a
+$hamburger-menu--width: 100%
+$hamburger-menu--height: 9px
+$hamburger-menu--thickness: 9px
+
 /* Hamburger Menu Shared Styles */
 %hamburger-menu
-  width: 60px
-  height: 45px
+  width: 44px
+  height: 44px
   position: relative
-  margin: 50px auto
+  margin: 0
   transform: rotate(0deg)
   transition: .5s ease-in-out
   cursor: pointer
   background-color: transparent
   border: none
+  padding: 0
   &:focus
     outline: none
   span
     display: block
     position: absolute
-    height: 9px
+    height: $hamburger-menu--thickness
     background: $hamburger-menu--color
     opacity: 1
     transform: rotate(0deg)
     transition: .25s ease-in-out
-    width: 100%
-    border-radius: 9px
+    width: $hamburger-menu--width
+    @if($hamburger-menu--rounded)
+      border-radius: $hamburger-menu--height
     left: 0
 
 
@@ -29,23 +38,23 @@
   @extend %hamburger-menu
   span
     &:nth-child(1)
-      top: 0px
+      top: 0
     &:nth-child(2)
-      top: 18px
+      top: $hamburger-menu--height*2
     &:nth-child(3)
-      top: 36px
+      top: $hamburger-menu--height*4
     &:nth-child(4),&:nth-child(5),&:nth-child(6)
       display: none
   &:not(.collapsed)
     span
       &:nth-child(1)
-        top: 18px
+        top: $hamburger-menu--height*2
         transform: rotate(135deg)
       &:nth-child(2)
         opacity: 0
         left: -60px
       &:nth-child(3)
-        top: 18px
+        top: $hamburger-menu--height*2
         transform: rotate(-135deg)
 
 
@@ -56,10 +65,12 @@
     width: 50%
     &:nth-child(even)
       left: 50%
-      border-radius: 0 9px 9px 0
+      @if($hamburger-menu--rounded)
+        border-radius: 0 $hamburger-menu--thickness $hamburger-menu--thickness 0
     &:nth-child(odd)
       left: 0px
-      border-radius: 9px 0 0 9px
+      @if($hamburger-menu--rounded)
+        border-radius: $hamburger-menu--thickness 0 0 $hamburger-menu--thickness
     &:nth-child(1),&:nth-child(2)
       top: 0px
     &:nth-child(3),&:nth-child(4)
@@ -72,24 +83,29 @@
         transform: rotate(45deg)
       &:nth-child(2),&:nth-child(5)
         transform: rotate(-45deg)
-      &:nth-child(1)
-        left: 5px
-        top: 7px
-      &:nth-child(2)
-        left: calc(50% - 5px)
-        top: 7px
+      &:nth-child(3),&:nth-child(4)
+        opacity: 0
+        height: 0
+        width: 0
+
+
+      &:nth-child(1),&:nth-child(2)
+        top: 22%
+      &:nth-child(5),&:nth-child(6)
+        top: 55%
+
+      &:nth-child(1),&:nth-child(5)
+        left: 8%
+      &:nth-child(2),&:nth-child(6)
+        left: 40%
+
+
+
       &:nth-child(3)
         left: -50%
-        opacity: 0
       &:nth-child(4)
         left: 100%
-        opacity: 0
-      &:nth-child(5)
-        left: 5px
-        top: 29px
-      &:nth-child(6)
-        left: calc(50% - 5px)
-        top: 29px
+
 
 
 /* Hamburger Menu Type 3 */
@@ -97,26 +113,26 @@
   @extend %hamburger-menu
   span
     &:nth-child(1)
-      top: 0px
+      top: 0
     &:nth-child(2),&:nth-child(3)
-      top: 18px
+      top: $hamburger-menu--height*2
     &:nth-child(4)
-      top: 36px
+      top: $hamburger-menu--height*4
     &:nth-child(5),&:nth-child(6)
       display: none
   &:not(.collapsed)
     span
       &:nth-child(1)
-        top: 18px
-        width: 0%
+        top: $hamburger-menu--height*2
+        width: 0
         left: 50%
       &:nth-child(2)
         transform: rotate(45deg)
       &:nth-child(3)
         transform: rotate(-45deg)
       &:nth-child(4)
-        top: 18px
-        width: 0%
+        top: $hamburger-menu--height*2
+        width: 0
         left: 50%
 
 
@@ -126,25 +142,25 @@
   span
     transform-origin: left center
     &:nth-child(1)
-      top: 0px
+      top: 0
     &:nth-child(2)
-      top: 18px
+      top: $hamburger-menu--height*2
     &:nth-child(3)
-      top: 36px
+      top: $hamburger-menu--height*4
     &:nth-child(4),&:nth-child(5),&:nth-child(6)
       display: none
   &:not(.collapsed)
     span
       &:nth-child(1)
         transform: rotate(45deg)
-        top: -3px
+        top: $hamburger-menu--thickness*0.2
         left: 8px
       &:nth-child(2)
-        width: 0%
+        width: 0
         opacity: 0
       &:nth-child(3)
         transform: rotate(-45deg)
-        top: 39px
+        top: ($hamburger-menu--height*3)+($hamburger-menu--thickness*0.666)
         left: 8px
 
 
