@@ -1,13 +1,12 @@
 /* Hamburger Menu Settings */
 $hamburger-menu--rounded: true
+$hamburger-menu--debug: false
 $hamburger-menu--color: #d3531a
 $hamburger-menu--width: 100%
 // $hamburger-menu--height: 9px
 $hamburger-menu--thickness: 25%
-$hamburger-menu--size: 1000px
+$hamburger-menu--size: 44px
 
-span, button
-  outline: 1px solid blue
 
 
 /* Hamburger Menu Shared Styles */
@@ -33,9 +32,13 @@ span, button
     transform: rotate(0deg)
     transition: .25s ease-in-out
     width: 100%
+    left: 0
     @if($hamburger-menu--rounded)
       border-radius: $hamburger-menu--size/3
-    left: 0
+  @if($hamburger-menu--debug)
+    span, button
+      outline: 1px solid blue
+
 
 
 /* Hamburger Menu Type 1 */
