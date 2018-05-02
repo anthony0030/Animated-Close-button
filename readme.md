@@ -25,19 +25,19 @@
 
 ## Technologyies Used
 
-![SASS](https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg "SASS")
+![SASS](https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg =200x200 "SASS")
 
-![JADE](https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg "JADE")
+![JADE](https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg =200x200 "JADE")
 
-![JQUERY](https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg "JQUERY")
+![JQUERY](https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg =200x200 "JQUERY")
 
-![CODEKIT](https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg "CODEKIT")
+![CODEKIT](https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg =200x200 "CODEKIT")
 
-![BOWER](https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg "BOWER")
+![BOWER](https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg =200x200 "BOWER")
 
-![AUTOPREFIXER](https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg "AUTOPREFIXER")
+![AUTOPREFIXER](https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg =200x200 "AUTOPREFIXER")
 
-![ESLINT](https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg "ESLINT")
+![ESLINT](https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg =200x200 "ESLINT")
 
 ## live Demo
 Please visit ive demo
