@@ -118,25 +118,21 @@ span, button
     &:nth-child(1)
       top: 0
     &:nth-child(2),&:nth-child(3)
-      top: $hamburger-menu--height*2
+      top: 50% - $hamburger-menu--thickness/2
     &:nth-child(4)
-      top: $hamburger-menu--height*4
+      top: 100% - $hamburger-menu--thickness
     &:nth-child(5),&:nth-child(6)
       display: none
   &:not(.collapsed)
     span
       &:nth-child(1)
-        top: $hamburger-menu--height*2
-        width: 0
-        left: 50%
+        opacity: 0
       &:nth-child(2)
         transform: rotate(45deg)
       &:nth-child(3)
         transform: rotate(-45deg)
       &:nth-child(4)
-        top: $hamburger-menu--height*2
-        width: 0
-        left: 50%
+        opacity: 0
 
 
 /* Hamburger Menu Type 4 */
