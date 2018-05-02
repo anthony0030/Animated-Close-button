@@ -41,8 +41,7 @@
 
 ## live Demo
 Please visit ive demo
-[here](hhttps://anthony0030.github.io/Animated-Close-button)
-!
+	[here](hhttps://anthony0030.github.io/Animated-Close-button)!
 
 ## known problems
 1. Demo link broken
