@@ -143,27 +143,25 @@ span, button
 .hamburger-menu-4
   @extend %hamburger-menu
   span
+    top: 50% - $hamburger-menu--thickness/2
+    &:nth-child(1)
+      transform: rotate(45deg)
+    &:nth-child(2)
+      width: 0
+      opacity: 0
+    &:nth-child(3)
+      transform: rotate(-45deg)
+    &:nth-child(4),&:nth-child(5),&:nth-child(6)
+      display: none
+  &.collapsed span
     transform-origin: left center
+    transform: rotate(0)
     &:nth-child(1)
       top: 0
     &:nth-child(2)
-      top: $hamburger-menu--height*2
+      top: 50% - $hamburger-menu--thickness/2
+      width: 100%
+      opacity: 1
     &:nth-child(3)
-      top: $hamburger-menu--height*4
-    &:nth-child(4),&:nth-child(5),&:nth-child(6)
-      display: none
-  &:not(.collapsed)
-    span
-      &:nth-child(1)
-        transform: rotate(45deg)
-        top: $hamburger-menu--thickness*0.2
-        left: 8px
-      &:nth-child(2)
-        width: 0
-        opacity: 0
-      &:nth-child(3)
-        transform: rotate(-45deg)
-        top: ($hamburger-menu--height*3)+($hamburger-menu--thickness*0.666)
-        left: 8px
-
+      top: 100% - $hamburger-menu--thickness
 
