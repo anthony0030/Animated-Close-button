@@ -71,6 +71,27 @@ span, button
   @extend %hamburger-menu
   span
     width: 50%
+    &:nth-child(1),&:nth-child(6)
+      transform: rotate(45deg)
+    &:nth-child(2),&:nth-child(5)
+      transform: rotate(-45deg)
+    &:nth-child(3),&:nth-child(4)
+      opacity: 0
+    &:nth-child(1),&:nth-child(2)
+      top: 22%
+    &:nth-child(5),&:nth-child(6)
+      top: 55%
+    &:nth-child(1),&:nth-child(5)
+      left: 8%
+    &:nth-child(2),&:nth-child(6)
+      left: 40%
+    &:nth-child(3)
+      left: -50%
+    &:nth-child(4)
+      left: 100%
+  &.collapsed span
+    transform: rotate(0)
+    opacity: 1
     &:nth-child(even)
       left: 50%
       @if($hamburger-menu--rounded)
@@ -85,30 +106,6 @@ span, button
       top: 50% - $hamburger-menu--thickness/2
     &:nth-child(5),&:nth-child(6)
       top: 100% - $hamburger-menu--thickness
-  &:not(.collapsed)
-    span
-      &:nth-child(1),&:nth-child(6)
-        transform: rotate(45deg)
-      &:nth-child(2),&:nth-child(5)
-        transform: rotate(-45deg)
-      &:nth-child(3),&:nth-child(4)
-        opacity: 0
-        height: 0
-        width: 0
-      &:nth-child(1),&:nth-child(2)
-        top: 22%
-      &:nth-child(5),&:nth-child(6)
-        top: 55%
-
-      &:nth-child(1),&:nth-child(5)
-        left: 8%
-      &:nth-child(2),&:nth-child(6)
-        left: 40%
-      &:nth-child(3)
-        left: -50%
-      &:nth-child(4)
-        left: 100%
-
 
 
 /* Hamburger Menu Type 3 */
@@ -129,14 +126,9 @@ span, button
       opacity: 0
     &:nth-child(5),&:nth-child(6)
       display: none
-
-
-
-
   &.collapsed span
     transform: rotate(0)
     opacity: 1
-
 
 
 /* Hamburger Menu Type 4 */
