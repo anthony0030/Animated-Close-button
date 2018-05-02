@@ -23,6 +23,24 @@
 * Triger Classe:
 	* .collapsed
 
+## Technologyies Used
+
+![SASS](https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg "SASS")
+
+![JADE](https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg "JADE")
+
+![JQUERY](https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg "JQUERY")
+
+![CODEKIT](https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg "CODEKIT")
+
+![BOWER](https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg "BOWER")
+
+![AUTOPREFIXER](https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg "AUTOPREFIXER")
+
+![ESLINT](https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg "ESLINT")
+
 ##live Demo
 Please visit ive demo
 [here](hhttps://anthony0030.github.io/Animated-Close-button)!
+
+###### All logos are property of their respective owners.
