@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/.gitignore",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 0,
@@ -24,6 +31,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/bower_components\/jquery\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/jquery\/.gitignore",
+		"oF": 0
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
 		"cB": 0,
@@ -1293,7 +1307,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-angryBaby",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 546971592
+	"lastBuiltDate": 546972225
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2689,7 +2703,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
