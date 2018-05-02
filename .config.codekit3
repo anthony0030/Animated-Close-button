@@ -7,7 +7,7 @@
 		"uuidString": "789A5D89-CA48-4AF9-AEBF-8053CD25ECEE"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -31,13 +31,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/bower_components\/jquery\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/bower_components\/jquery\/.gitignore",
-		"oF": 0
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
 		"cB": 0,
@@ -1313,7 +1306,6 @@
 	"displayValue": "Animated-Close-button",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-angryBaby",
-	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 546978473
 	},
 "projectSettings": {
@@ -3117,7 +3109,6 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
