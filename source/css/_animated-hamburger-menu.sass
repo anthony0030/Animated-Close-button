@@ -38,24 +38,27 @@ $hamburger-menu--thickness: 9px
   @extend %hamburger-menu
   span
     &:nth-child(1)
-      top: 0
-    &:nth-child(2)
       top: $hamburger-menu--height*2
+      transform: rotate(135deg)
+    &:nth-child(2)
+      opacity: 0
+      left: -60px
     &:nth-child(3)
-      top: $hamburger-menu--height*4
+      top: $hamburger-menu--height*2
+      transform: rotate(-135deg)
     &:nth-child(4),&:nth-child(5),&:nth-child(6)
       display: none
-  &:not(.collapsed)
-    span
-      &:nth-child(1)
-        top: $hamburger-menu--height*2
-        transform: rotate(135deg)
-      &:nth-child(2)
-        opacity: 0
-        left: -60px
-      &:nth-child(3)
-        top: $hamburger-menu--height*2
-        transform: rotate(-135deg)
+  &.collapsed span
+    &:nth-child(1)
+      top: 0
+      transform: rotate(0)
+    &:nth-child(2)
+      top: $hamburger-menu--height*2
+      opacity: 1
+      left: 0
+    &:nth-child(3)
+      top: $hamburger-menu--height*4
+      transform: rotate(0)
 
 
 /* Hamburger Menu Type 2 */
