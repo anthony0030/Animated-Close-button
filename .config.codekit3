@@ -1251,6 +1251,13 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
+	"\/source\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/.gitignore",
+		"oF": 0
+		},
 	"\/source\/css\/_animated-hamburger-menu.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -1307,7 +1314,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-angryBaby",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 546972225
+	"lastBuiltDate": 546978473
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
