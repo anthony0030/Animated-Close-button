@@ -25,19 +25,19 @@
 
 ## Technologyies Used
 
-![SASS](https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg =200x200 "SASS")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg" alt="SASS" title="SASS" style="width: 200px;"/>
 
-![JADE](https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg =200x200 "JADE")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg" alt="JADE" title="JADE" style="width: 200px;"/>
 
-![JQUERY](https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg =200x200 "JQUERY")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg" alt="JQUERY" title="JQUERY" style="width: 200px;"/>
 
-![CODEKIT](https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg =200x200 "CODEKIT")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg" alt="CODEKIT" title="CODEKIT" style="width: 200px;"/>
 
-![BOWER](https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg =200x200 "BOWER")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg" alt="BOWER" title="BOWER" style="width: 200px;"/>
 
-![AUTOPREFIXER](https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg =200x200 "AUTOPREFIXER")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg" alt="AUTOPREFIXER" title="AUTOPREFIXER" style="width: 200px;"/>
 
-![ESLINT](https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg =200x200 "ESLINT")
+<img src="https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg" alt="JA ESLINT DE" title="" style="width: 200px;"/>
 
 ## live Demo
 Please visit ive demo
