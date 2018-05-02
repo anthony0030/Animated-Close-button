@@ -2,13 +2,18 @@
 $hamburger-menu--rounded: true
 $hamburger-menu--color: #d3531a
 $hamburger-menu--width: 100%
-$hamburger-menu--height: 9px
-$hamburger-menu--thickness: 9px
+// $hamburger-menu--height: 9px
+$hamburger-menu--thickness: 25%
+$hamburger-menu--size: 1000px
+
+span, button
+  outline: 1px solid blue
+
 
 /* Hamburger Menu Shared Styles */
 %hamburger-menu
-  width: 44px
-  height: 44px
+  width: $hamburger-menu--size
+  height: $hamburger-menu--size
   position: relative
   margin: 0
   transform: rotate(0deg)
@@ -27,9 +32,9 @@ $hamburger-menu--thickness: 9px
     opacity: 1
     transform: rotate(0deg)
     transition: .25s ease-in-out
-    width: $hamburger-menu--width
+    width: 100%
     @if($hamburger-menu--rounded)
-      border-radius: $hamburger-menu--height
+      border-radius: $hamburger-menu--size/3
     left: 0
 
 
@@ -37,14 +42,14 @@ $hamburger-menu--thickness: 9px
 .hamburger-menu-1
   @extend %hamburger-menu
   span
+    &:nth-child(1),&:nth-child(3)
+      top: 50% - $hamburger-menu--thickness/2
     &:nth-child(1)
-      top: $hamburger-menu--height*2
       transform: rotate(135deg)
     &:nth-child(2)
       opacity: 0
       left: 100%
     &:nth-child(3)
-      top: $hamburger-menu--height*2
       transform: rotate(-135deg)
     &:nth-child(4),&:nth-child(5),&:nth-child(6)
       display: none
@@ -53,11 +58,11 @@ $hamburger-menu--thickness: 9px
       top: 0
       transform: rotate(0)
     &:nth-child(2)
-      top: $hamburger-menu--height*2
+      top: 50% - $hamburger-menu--thickness/2
       opacity: 1
       left: 0
     &:nth-child(3)
-      top: $hamburger-menu--height*4
+      top: 100% - $hamburger-menu--thickness
       transform: rotate(0)
 
 
