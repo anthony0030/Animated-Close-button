@@ -1,8 +1,8 @@
 /* Hamburger Menu Settings */
 /* Hamburger Menu Shared Styles */
 .hamburger-menu-1, .hamburger-menu-2, .hamburger-menu-3, .hamburger-menu-4 {
-  width: 44px;
-  height: 44px;
+  width: 100px;
+  height: 100px;
   position: relative;
   margin: 0;
   -webkit-transform: rotate(0deg);
@@ -19,7 +19,7 @@
     display: block;
     position: absolute;
     height: 25%;
-    background: #d3531a;
+    background: #fff;
     opacity: 1;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -27,7 +27,7 @@
     transition: .25s ease-in-out;
     width: 100%;
     left: 0;
-    border-radius: 14.6666666667px; }
+    border-radius: 33.3333333333px; }
 
 /* Hamburger Menu Type 1 */
 .hamburger-menu-1 span:nth-child(1), .hamburger-menu-1 span:nth-child(3) {
@@ -93,10 +93,10 @@
   opacity: 1; }
   .hamburger-menu-2.collapsed span:nth-child(even) {
     left: 50%;
-    border-radius: 0 14.6666666667px 14.6666666667px 0; }
+    border-radius: 0 33.3333333333px 33.3333333333px 0; }
   .hamburger-menu-2.collapsed span:nth-child(odd) {
     left: 0;
-    border-radius: 14.6666666667px 0 0 14.6666666667px; }
+    border-radius: 33.3333333333px 0 0 33.3333333333px; }
   .hamburger-menu-2.collapsed span:nth-child(1), .hamburger-menu-2.collapsed span:nth-child(2) {
     top: 0; }
   .hamburger-menu-2.collapsed span:nth-child(3), .hamburger-menu-2.collapsed span:nth-child(4) {
@@ -159,4 +159,20 @@
     opacity: 1; }
   .hamburger-menu-4.collapsed span:nth-child(3) {
     top: 75%; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background-color: #000;
+  color: #fff; }
+
+.title {
+  text-align: center;
+  font-size: 50px; }
+
+[class^='hamburger-menu'] {
+  margin: 0 auto;
+  display: block; }
 /*# sourceMappingURL=styles.css.map */

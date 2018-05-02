@@ -1,1 +1,4 @@
 .DS_Store
+
+bower_components/jquery
+!bower_components/jquery/dist/jquery.js
