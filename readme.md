@@ -4,58 +4,60 @@
 
 ## Syntax
 
-	<button class="hamburger-menu-X collapsed">
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
-	</button>
-	
+    <button class="hamburger-menu-X collapsed">
+      <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+
 ## Classes
 
 * Hamburger Menu Style Classe:
-	* .hamburger-menu-1
-	* .hamburger-menu-2
-	* .hamburger-menu-3
-	* .hamburger-menu-4
+  * .hamburger-menu-1
+  * .hamburger-menu-2
+  * .hamburger-menu-3
+  * .hamburger-menu-4
 * Triger Classe:
-	* .collapsed
+  * .collapsed
 
 ## Technologyies Used
 
 <a href="sass-lang.com">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg" alt="SASS" title="SASS"/>
+  <img src="technologies/sass.svg" alt="SASS" title="SASS"/>
 </a>
 
 <a href="jade-lang.com">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg" alt="JADE" title="JADE"/>
+  <img src="technologies/jade.svg" alt="JADE" title="JADE"/>
 </a>
 
 <a href="jquery.com">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg" alt="JQUERY" title="JQUERY"/>
+  <img src="technologies/jquery.svg" alt="JQUERY" title="JQUERY"/>
 </a>
 
 <a href="codekitapp.com">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg" alt="CODEKIT" title="CODEKIT"/>
+  <img src="technologies/codekit.svg" alt="CODEKIT" title="CODEKIT"/>
 </a>
 
 <a href="bower.io">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg" alt="BOWER" title="BOWER"/>
+  <img src="technologies/bower.svg" alt="BOWER" title="BOWER"/>
 </a>
 
 <a href="github.com/postcss/autoprefixer">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg" alt="AUTOPREFIXER" title="AUTOPREFIXER"/>
+  <img src="technologies/autoprefixer.svg" alt="AUTOPREFIXER" title="AUTOPREFIXER"/>
 </a>
 
 <a href="eslint.org">
-  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg" alt="ESLINT" title="ESLINT"/>
+  <img src="technologies/eslint.svg" alt="ESLINT" title="ESLINT"/>
 </a>
 
 ## live Demo
 Please visit ive demo
-	here - https://anthony0030.github.io/Animated-Close-button !
+  here - https://anthony0030.github.io/Animated-Close-button !
 
 ## known problems
 1. Demo link broken
