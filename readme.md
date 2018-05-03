@@ -24,45 +24,33 @@
 	* .collapsed
 
 ## Technologyies Used
-<style type="text/css">
-  .badge{
-    width: 24%;
-    display: inline-block;
-  }
-  .badges{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-</style>
-
 
 <a href="sass-lang.com">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg" alt="SASS" title="SASS"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/sass.svg" alt="SASS" title="SASS"/>
 </a>
 
 <a href="jade-lang.com">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg" alt="JADE" title="JADE"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/jade.svg" alt="JADE" title="JADE"/>
 </a>
 
 <a href="jquery.com">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg" alt="JQUERY" title="JQUERY"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/jquery.svg" alt="JQUERY" title="JQUERY"/>
 </a>
 
 <a href="codekitapp.com">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg" alt="CODEKIT" title="CODEKIT"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/codekit.svg" alt="CODEKIT" title="CODEKIT"/>
 </a>
 
 <a href="bower.io">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg" alt="BOWER" title="BOWER"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/bower.svg" alt="BOWER" title="BOWER"/>
 </a>
 
 <a href="github.com/postcss/autoprefixer">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg" alt="AUTOPREFIXER" title="AUTOPREFIXER"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/autoprefixer.svg" alt="AUTOPREFIXER" title="AUTOPREFIXER"/>
 </a>
 
 <a href="eslint.org">
-  <img class="badge" src="https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg" alt="ESLINT" title="ESLINT"/>
+  <img src="https://anthony0030.github.io/Animated-Close-button/technologies/eslint.svg" alt="ESLINT" title="ESLINT"/>
 </a>
 
 ## live Demo
