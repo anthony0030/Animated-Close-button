@@ -32,6 +32,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/bower_components\/jquery\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/jquery\/.gitignore",
+		"oF": 0
+		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -1417,7 +1424,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-angryBaby",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 546993521
+	"lastBuiltDate": 547024094
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
