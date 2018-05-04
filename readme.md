@@ -60,9 +60,7 @@ Please visit ive demo
   here - https://anthony0030.github.io/Animated-Close-button !
 
 ## known problems
-1. Demo link broken
-2. Icons to big
-3. No Description
-4. No other CSS activation tags
+1. No Description
+2. No other CSS activation tags
 
 ###### All logos are property of their respective owners.
